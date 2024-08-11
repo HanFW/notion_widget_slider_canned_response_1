@@ -49,6 +49,10 @@
             top: 16px !important;
             bottom: 16px !important;
         }
+
+        .lg-backdrop {
+            background-color: #eee !important; 
+        }
     </style>
 </head>
 
@@ -108,7 +112,6 @@
         const $lgContainer = document.getElementById("swiper-container");
 
         const lg = lightGallery($lgContainer, {
-            backgroundColor: #eee,
             speed: 500,
             download: false,
             showZoomInOutIcons: true,
